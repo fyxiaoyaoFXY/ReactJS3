@@ -4,12 +4,12 @@ import { SearchBar, Button, WhiteSpace} from 'antd-mobile';
 import { Carousel, WingBlank } from 'antd-mobile';
 import { Grid } from 'antd-mobile';
 const data = Array.from(new Array(4)).map((_val, i) => ({
-  icon: '../cap.png',
+  icon: '../img/cap.png',
   text: `name${i}`,
 }));
 
 const data1 = Array.from(new Array(10)).map(() => ({
-  icon: '../tubiao.png',
+  icon: '../img/tubiao.png',
 }));
 
 
@@ -48,7 +48,7 @@ export default class AppMy extends Component {
               style={{ display: 'inline-block', width: '100%', height: this.state.imgHeight }}
             >
               <img
-                src={`../banner.png`}
+                src={`../img/banner.png`}
                 alt=""
                 style={{ width: '100%', verticalAlign: 'top' }}
                 onLoad={() => {

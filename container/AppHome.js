@@ -37,7 +37,7 @@ export default class AppHome extends Component {
               style={{ display: 'inline-block', width: '100%', height: this.state.imgHeight }}
             >
               <img
-                src={`../${val}.jpg`}
+                src={`../img/${val}.jpg`}
                 alt=""
                 style={{ width: '100%', height:'200px',verticalAlign: 'top' }}
                 onLoad={() => {
@@ -51,14 +51,14 @@ export default class AppHome extends Component {
         </Carousel>
       </WingBlank>
       <div style={{width:'100%',height:'140px',background:'#eeeeee','margin-top':'20px'}}>
-          <img src='../zj1.png' style={{width:'100px',height:'100px','margin-left':'15px','margin-top':'20px'}}/>
-          <img src='../zj2.png' style={{width:'100px',height:'100px','margin-left':'15px','margin-top':'20px'}}/>
-          <img src='../zj3.png' style={{width:'100px',height:'100px','margin-left':'15px','margin-top':'20px'}}/>
+          <img src='../img/zj1.png' style={{width:'100px',height:'100px','margin-left':'15px','margin-top':'20px'}}/>
+          <img src='../img/zj2.png' style={{width:'100px',height:'100px','margin-left':'15px','margin-top':'20px'}}/>
+          <img src='../img/zj3.png' style={{width:'100px',height:'100px','margin-left':'15px','margin-top':'20px'}}/>
       </div>
       <div style={{width:'100%',height:'40px'}}>
         <div style={{width:'5px',height:'20px',background:'#3fcccb','margin-top':'20px',display:'block'}}></div>
         热点推荐
-        <img src='../last.png' style={{width:'100%'}}/>
+        <img src='../img/last.png' style={{width:'100%'}}/>
       </div>
       {/* <img src='../last.png'/> */}
       </div>
